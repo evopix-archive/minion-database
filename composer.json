@@ -1,0 +1,20 @@
+{
+    "name": "evopix/minion-database",
+    "type": "kohana-module",
+    "description": "Database migration and seeder for Kohana's Minion task runner.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brandon Summers",
+            "email": "brandon@brandonsummers.name"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "composer/installers": "~1.0",
+        "evopix/kohana-schema": "*"
+    },
+    "autoload": {
+        "psr-0": { "Minion_Database": "classes/" }
+    }
+}
